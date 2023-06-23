@@ -7,6 +7,9 @@
 
 import SwiftUI
 
+/**
+ * Allows the user to enter a comic ID to retrieve the actual comic
+ */
 struct ComicIDPopupView: View {
     @Binding var isShowingPopup: Bool
     @State private var comicID: String = ""
@@ -17,17 +20,14 @@ struct ComicIDPopupView: View {
         VStack {
             Text("Enter Comic ID")
                 .font(.title)
-            
             TextField("Comic ID", text: $comicID)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
-                .padding()
-            
+                .padding() 
             HStack {
                 Button("Cancel") {
                     isShowingPopup = false
                 }
                 .padding()
-                
                 Button("Confirm") {
                     confirmAction(comicID)
                     isShowingPopup = false
@@ -40,6 +40,5 @@ struct ComicIDPopupView: View {
         .background(Color.white)
         .cornerRadius(10) 
         .padding()
-        
     }
 }

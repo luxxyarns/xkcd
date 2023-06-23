@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import PDFKit
 
 struct FocusedComicView: View {
     @EnvironmentObject var comicManager: ComicManager
@@ -22,12 +23,12 @@ struct FocusedComicView: View {
                 Button(action: {
                     isSharingSheetPresented = true
                 }) {
-                    Label("Share", systemImage: "square.and.arrow.up")
+                    Label("Share URL", systemImage: "square.and.arrow.up")
                         .font(.headline)
                 }
                 .padding()
                 .sheet(isPresented: $isSharingSheetPresented) {
-                    ShareSheet(activityItems: [comic.title])
+                    ShareSheet(activityItems: [comic.explainURL])
                 }
                 
                 Spacer()
@@ -45,5 +46,6 @@ struct FocusedComicView: View {
             }
         }
     }
+ 
 }
  

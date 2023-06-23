@@ -6,15 +6,35 @@
 //
 
 import Foundation
+import Network
+import OSLog
 
+/**
+ * main management class to perform a session management kind of role
+ */
 public class ComicManager: NSObject, ObservableObject {
-    
+
+    // holds the current comic model
     @Published public var currentComic: ComicModel?
+
+    // holds all current favorites
     @Published public var currentFavorites = [ComicModel]()
+    
+    // is true if the current comic is a favorite
     @Published public var isFavorited: Bool = false
+    
+    // is true if the app is online
+    
+    @Published public var isOnline: Bool = false
+    
+    // is true if the user views an image fullscreen
     @Published var showImageViewer: Bool = true
     @Published var showImageURL: String = ""
-
+    
+    // network monitoring to check for online / offline
+    private let monitor = NWPathMonitor()
+    private let queue = DispatchQueue(label: "NetworkMonitor")
+   
     private var _currentItem: Int?
     public var currentMax: Int = 1
     
@@ -26,7 +46,19 @@ public class ComicManager: NSObject, ObservableObject {
         _shared = ComicManager()
         return _shared!
     }
-      
+     public func startMonitoringNetwork() {
+        monitor.pathUpdateHandler = { path in
+            DispatchQueue.main.async {
+                self.isOnline = path.status == .satisfied
+            }
+        }
+        monitor.start(queue: queue)
+    }
+    
+    public func stopMonitoringNetwork() {
+        monitor.cancel()
+    }
+    
     public var currentItem: Int {
         let defaults = UserDefaults.standard
         if let value = _currentItem {
@@ -52,8 +84,9 @@ public class ComicManager: NSObject, ObservableObject {
                 self.currentMax = try await ComicController.shared.fetchLatestComicNumber()
                 UserDefaults.standard.set(self.currentMax, forKey: "maxComicID")
                 UserDefaults.standard.synchronize()
-            } catch {
-                print("Error: \(error)")
+            } catch let err {
+                Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+         
             }
         }
         updateFavorites()
@@ -133,8 +166,9 @@ public class ComicManager: NSObject, ObservableObject {
                     self._currentItem = newID
                     self.currentComic = try await ComicController.shared.fetchComic(byNumber: newID)
                     self.checkFavorite()
-                } catch {
-                    print("Error: \(error)")
+                } catch let err {
+                    Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+             
                 }
             }
         }

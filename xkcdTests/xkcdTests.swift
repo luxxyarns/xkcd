@@ -17,15 +17,15 @@ final class xkcdTests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-  
 
     func fetchLatestNumber() throws {
         Task {
             do {
                 let comicNumber = try await ComicController.shared.fetchLatestComicNumber()
                 print("Latest Comic Number: \(comicNumber)")
-            } catch {
-                print("Error: \(error)")
+            } catch let err {
+            print("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+         
             }
         }
     }
@@ -35,8 +35,9 @@ final class xkcdTests: XCTestCase {
             do {
                 let comicNumber = try await ComicController.shared.fetchComic(byNumber: 10)
                 print("Comic retrieved: \(comicNumber)")
-            } catch {
-                print("Error: \(error)")
+            } catch let err {
+                print("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+         
             }
         }
     }

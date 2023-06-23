@@ -15,11 +15,15 @@
 		145039942A42EC1C00E195DA /* xkcdUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145039932A42EC1C00E195DA /* xkcdUITestsLaunchTests.swift */; };
 		145039A22A42ED2000E195DA /* ComicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145039A12A42ED2000E195DA /* ComicModel.swift */; };
 		145039A42A42ED6800E195DA /* ComicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145039A32A42ED6800E195DA /* ComicController.swift */; };
+		14673CB82A458406001A6DDB /* ComicCardProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14673CB72A458406001A6DDB /* ComicCardProgressView.swift */; };
 		14833AB52A437A870085A152 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 14833AB42A437A870085A152 /* SwiftSoup */; };
 		14833ABB2A4385410085A152 /* ImageViewer in Frameworks */ = {isa = PBXBuildFile; productRef = 14833ABA2A4385410085A152 /* ImageViewer */; };
 		14833ABD2A4385410085A152 /* ImageViewerRemote in Frameworks */ = {isa = PBXBuildFile; productRef = 14833ABC2A4385410085A152 /* ImageViewerRemote */; };
 		1487D6E12A4575A10008A9F0 /* FocusedComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487D6E02A4575A10008A9F0 /* FocusedComicView.swift */; };
 		1487D6E32A4575CD0008A9F0 /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1487D6E22A4575CD0008A9F0 /* WarningView.swift */; };
+		14AA929B2A458D8B00EEF590 /* LoadingComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA929A2A458D8B00EEF590 /* LoadingComicView.swift */; };
+		14AA929D2A458DB300EEF590 /* NavigationComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA929C2A458DB300EEF590 /* NavigationComicView.swift */; };
+		14AA929F2A458DD000EEF590 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14AA929E2A458DD000EEF590 /* ShareSheet.swift */; };
 		14C430D92A4353D0009690FE /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C430D82A4353D0009690FE /* MainView.swift */; };
 		14C430DB2A435481009690FE /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C430DA2A435481009690FE /* BrowserView.swift */; };
 		14C430DD2A43548C009690FE /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C430DC2A43548C009690FE /* FavoritesView.swift */; };
@@ -62,8 +66,12 @@
 		145039932A42EC1C00E195DA /* xkcdUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xkcdUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		145039A12A42ED2000E195DA /* ComicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicModel.swift; sourceTree = "<group>"; };
 		145039A32A42ED6800E195DA /* ComicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicController.swift; sourceTree = "<group>"; };
+		14673CB72A458406001A6DDB /* ComicCardProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicCardProgressView.swift; sourceTree = "<group>"; };
 		1487D6E02A4575A10008A9F0 /* FocusedComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusedComicView.swift; sourceTree = "<group>"; };
 		1487D6E22A4575CD0008A9F0 /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		14AA929A2A458D8B00EEF590 /* LoadingComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingComicView.swift; sourceTree = "<group>"; };
+		14AA929C2A458DB300EEF590 /* NavigationComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationComicView.swift; sourceTree = "<group>"; };
+		14AA929E2A458DD000EEF590 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
 		14C430D82A4353D0009690FE /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		14C430DA2A435481009690FE /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
 		14C430DC2A43548C009690FE /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
@@ -127,12 +135,12 @@
 		145039742A42EC1C00E195DA /* xkcd */ = {
 			isa = PBXGroup;
 			children = (
+				145039752A42EC1C00E195DA /* xkcdApp.swift */,
 				1487D6DF2A4575490008A9F0 /* AuxViews */,
 				1487D6DE2A45752C0008A9F0 /* Views */,
 				1487D6DD2A4575260008A9F0 /* Models */,
 				1487D6DC2A45751A0008A9F0 /* Controller */,
 				1487D6DB2A4575100008A9F0 /* Management */,
-				145039752A42EC1C00E195DA /* xkcdApp.swift */,
 				145039792A42EC1C00E195DA /* Assets.xcassets */,
 				1450397B2A42EC1C00E195DA /* xkcd.entitlements */,
 				1450397C2A42EC1C00E195DA /* Preview Content */,
@@ -192,12 +200,12 @@
 		1487D6DE2A45752C0008A9F0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				14C430DC2A43548C009690FE /* FavoritesView.swift */,
-				14C430DA2A435481009690FE /* BrowserView.swift */,
 				14C430D82A4353D0009690FE /* MainView.swift */,
+				14C430DA2A435481009690FE /* BrowserView.swift */,
+				14C430DC2A43548C009690FE /* FavoritesView.swift */,
+				14AA929C2A458DB300EEF590 /* NavigationComicView.swift */,
 				14C430E32A435950009690FE /* ComicCardView.swift */,
 				1487D6E02A4575A10008A9F0 /* FocusedComicView.swift */,
-				1487D6E22A4575CD0008A9F0 /* WarningView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -209,6 +217,10 @@
 				14C430E92A43633B009690FE /* ComicIDPopupView.swift */,
 				14C430E72A435E3D009690FE /* NavigationButtonListView.swift */,
 				14C430E52A4359C6009690FE /* RemoteImage.swift */,
+				14AA929E2A458DD000EEF590 /* ShareSheet.swift */,
+				14AA929A2A458D8B00EEF590 /* LoadingComicView.swift */,
+				14673CB72A458406001A6DDB /* ComicCardProgressView.swift */,
+				1487D6E22A4575CD0008A9F0 /* WarningView.swift */,
 			);
 			path = AuxViews;
 			sourceTree = "<group>";
@@ -380,8 +392,12 @@
 				14C430E62A4359C6009690FE /* RemoteImage.swift in Sources */,
 				14C430E42A435950009690FE /* ComicCardView.swift in Sources */,
 				14C430E82A435E3D009690FE /* NavigationButtonListView.swift in Sources */,
+				14673CB82A458406001A6DDB /* ComicCardProgressView.swift in Sources */,
+				14AA929B2A458D8B00EEF590 /* LoadingComicView.swift in Sources */,
 				145039762A42EC1C00E195DA /* xkcdApp.swift in Sources */,
+				14AA929F2A458DD000EEF590 /* ShareSheet.swift in Sources */,
 				145039A22A42ED2000E195DA /* ComicModel.swift in Sources */,
+				14AA929D2A458DB300EEF590 /* NavigationComicView.swift in Sources */,
 				14C430EC2A436922009690FE /* SearchPopupView.swift in Sources */,
 				14C430DD2A43548C009690FE /* FavoritesView.swift in Sources */,
 				14C430D92A4353D0009690FE /* MainView.swift in Sources */,
@@ -540,6 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = xkcd/xkcd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -548,6 +565,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "XKCD Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -556,8 +575,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -578,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = xkcd/xkcd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -586,6 +606,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "XKCD Viewer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.books";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -594,8 +616,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

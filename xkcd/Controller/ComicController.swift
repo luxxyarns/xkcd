@@ -7,6 +7,7 @@
 
 import Foundation
 import Cache
+import OSLog
 
 public class ComicController {
     var storage: Storage<String, [ComicModel]>?
@@ -37,8 +38,8 @@ public class ComicController {
                     
                 })
             }
-        } catch {
-            
+        } catch let err {
+            Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
         }
     }
     
@@ -47,8 +48,8 @@ public class ComicController {
             if let array = try storage?.object(forKey: "favorites") {
                 return array
             }
-        } catch {
-            
+        } catch let err {
+            Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
         }
         return []
     }
@@ -63,8 +64,9 @@ public class ComicController {
                 }
                 return false
             }
-        } catch {
-            
+        } catch let err {
+            Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+     
         }
         return false
     }
@@ -77,8 +79,9 @@ public class ComicController {
                     try storage?.setObject(newArray, forKey: "favorites")
                    
                 }
-            } catch {
-                
+            } catch let err {
+                Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+         
             }
         } else {
             do {
@@ -89,8 +92,9 @@ public class ComicController {
                     })
                     try storage?.setObject(newArray, forKey: "favorites")
                 }
-            } catch {
-                
+            } catch let err {
+                Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+         
             }
         }
     }

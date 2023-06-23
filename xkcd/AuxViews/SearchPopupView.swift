@@ -7,7 +7,11 @@
 
 import SwiftUI
 import SwiftSoup
+import OSLog
 
+/**
+ * Allows the user to enter a search term, and query the website for results. 
+ */
 struct SearchPopupView: View {
     @EnvironmentObject var comicManager: ComicManager
     @Binding var isShowingPopup: Bool
@@ -84,18 +88,10 @@ struct SearchPopupView: View {
             }
             
             if let data = data {
-                // Process the search results data
-                // Implement your logic to extract and parse the search results here
-                // let searchResults = parseSearchResults(data: data)
-                DispatchQueue.main.async {
-
+                DispatchQueue.main.async { 
                     Task {
                        await parseSearchResults(data: data)
                     }
-                // Perform any necessary UI updates with the search results
-                    // Update your view with the search results
-                    // For example, you can store the search results in a property and use it to populate the list
-                    // searchResults = ...
                 }
             }
         }
@@ -132,9 +128,11 @@ struct SearchPopupView: View {
                 }
             }
         } catch Exception.Error(let type, let message) {
+            print(type)
             print(message)
-        } catch {
-            print("error")
+        } catch let err {
+            Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+     
         }
         
         do {
@@ -143,14 +141,14 @@ struct SearchPopupView: View {
                     group.addTask {
                         return [try await ComicController.shared.fetchComic(byNumber: number)]
                     }
-                }
-                
+                } 
                 let allComics = try await group.reduce(into: [ComicModel]()) { $0 += $1 }
                 print(allComics)
                 return allComics.sorted { $0.num > $1.num }
             }
-        } catch {
-            print("Failed to load stories")
+        } catch let err {
+            Logger().error("error in \(#file) \(#line) \(#function): \(err.localizedDescription)")
+     
         }
          
     }
