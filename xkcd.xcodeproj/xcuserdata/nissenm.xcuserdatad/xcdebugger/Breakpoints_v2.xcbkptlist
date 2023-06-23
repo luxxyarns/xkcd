@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "537DD392-E4DC-404F-A687-8F34C0803C01"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59744E36-0250-4BF2-9993-15734E27EC63"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "fetchLatestComic(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "59744E36-0250-4BF2-9993-15734E27EC63 - ebc8820d8ac7f400"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in xkcd.ComicController.fetchLatestComic(completion: (Swift.Result&lt;xkcd.Comic, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicEndpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "59744E36-0250-4BF2-9993-15734E27EC63 - ebc8820d8ac7f9de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in xkcd.ComicController.fetchLatestComic(completion: (Swift.Result&lt;xkcd.Comic, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicEndpoint.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1220">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D7A73260-69D3-4439-A01D-C0E483573AEC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "fetchLatestComic(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D63D39D7-7831-4D3D-AA77-74A26B7F586A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "fetchLatestComic(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA995376-8BE7-4508-866A-C0DF3D8D8AB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicEndpoint.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchLatestComic(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8F725F5-2261-4625-9664-EACBE0D08BFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/BrowserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB7F2CB8-705D-4D6C-AD8E-F949E7D0FF5E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/BrowserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B669034F-215E-41A6-99F0-18F01481AB3D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "currentItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BF15FAC-C38F-405F-88ED-F3D94E295E29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "updateComic(newID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E5678EC-0B86-4B54-A409-417A378055F1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "currentItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C68EBE65-8F94-4114-AFFC-E76D6422B13F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "currentItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B93EF84A-FC06-492F-9097-DDABA151BF72"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "updateComic(newID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1A38A23-993A-4A3E-918A-2D8CB3ECDF08"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "updateComic(newID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "673AF439-6954-4930-B003-728200815010"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "fetchComic(byNumber:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D31949DE-3397-46D5-86F0-3FE80863ED6D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "next()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3110846-EF1E-47E5-923A-2D5FD110072E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "next()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "89A373E7-051E-44B2-A92F-11D883D5F80F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "previous()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78A0F37C-447B-4640-8DBD-6107EB8E3835"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "hasPrevious()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1132FF23-8843-4BE0-8ECA-6892E9355183"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "currentItem"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7E8038A-6E2E-4E6C-ADD9-25209A720010"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "updateComic(newID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B7555BC5-4C28-4102-A43E-EC92BFC34138"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "isFavorite(byID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58D7CEF5-1167-4179-A742-447269211460"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "getFavorites()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D63B7AB-8401-4974-BE54-6FF0C2BEF163"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1BFE79E-F702-4080-B461-BCF65A702E9E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "isFavorite(byID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F1BFE79E-F702-4080-B461-BCF65A702E9E - 22cacd6b44f7ff50"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.isFavorite(byID: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "F1BFE79E-F702-4080-B461-BCF65A702E9E - 33c2f044b737cafc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (xkcd.ComicModel) -&gt; Swift.Bool in xkcd.ComicController.isFavorite(byID: Swift.Int) -&gt; Swift.Bool"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE - ddbd6fe11b3e69dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.init() -&gt; xkcd.ComicController"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1400">
+               </Location>
+               <Location
+                  uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE - 707988ada025c206"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Cache.Result&lt;()&gt;) -&gt; () in xkcd.ComicController.init() -&gt; xkcd.ComicController"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE - 1df24375d140cac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for xkcd.ComicController.fetchLatestComic() async throws -&gt; xkcd.ComicModel"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE - f2f088dbe160eeb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for xkcd.ComicController.fetchLatestComic() async throws -&gt; xkcd.ComicModel"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "5E784E93-0EA6-4D3D-B36E-8791DC4BC6DE - ddbd6fe11b3e69dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.init() -&gt; xkcd.ComicController"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1456">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "841DB246-B560-4B8B-A07E-068218BA310F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "init()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "841DB246-B560-4B8B-A07E-068218BA310F - 1df24375d140c4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for xkcd.ComicController.fetchLatestComic() async throws -&gt; xkcd.ComicModel"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "841DB246-B560-4B8B-A07E-068218BA310F - ddbd6fe11b3e693d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.init() -&gt; xkcd.ComicController"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "980">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ACC508DA-7D78-4AB8-8EB3-FBF2339744EA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "ACC508DA-7D78-4AB8-8EB3-FBF2339744EA - d49e964765ae1087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "ACC508DA-7D78-4AB8-8EB3-FBF2339744EA - d49e964765ae1087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "ACC508DA-7D78-4AB8-8EB3-FBF2339744EA - d49e964765ae1087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "ACC508DA-7D78-4AB8-8EB3-FBF2339744EA - d49e964765ae1087"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B23FB87-7C9E-4C67-8484-9D3E035298B8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8B23FB87-7C9E-4C67-8484-9D3E035298B8 - d49e964765ae1f0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+               <Location
+                  uuid = "8B23FB87-7C9E-4C67-8484-9D3E035298B8 - d49e964765ae1f0b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "1396">
+               </Location>
+               <Location
+                  uuid = "8B23FB87-7C9E-4C67-8484-9D3E035298B8 - d49e964765ae1f2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1120">
+               </Location>
+               <Location
+                  uuid = "8B23FB87-7C9E-4C67-8484-9D3E035298B8 - d49e964765ae1f2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4BE94A58-96E0-4322-8998-4009CEA4C056"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4BE94A58-96E0-4322-8998-4009CEA4C056 - d49e964765ae1e77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  uuid = "4BE94A58-96E0-4322-8998-4009CEA4C056 - d49e964765ae1e77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "1744">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B55D52BB-966E-48A9-A256-5AB7242232E3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B55D52BB-966E-48A9-A256-5AB7242232E3 - d49e964765ae1041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "664">
+               </Location>
+               <Location
+                  uuid = "B55D52BB-966E-48A9-A256-5AB7242232E3 - d49e964765ae1041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF7DCF4D-4EF1-4D99-AAC3-39E39A2B894C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF7DCF4D-4EF1-4D99-AAC3-39E39A2B894C - d49e964765ae1ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+               <Location
+                  uuid = "BF7DCF4D-4EF1-4D99-AAC3-39E39A2B894C - 7ffdebc1f1137bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (xkcd.ComicModel) -&gt; Swift.Bool in xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "BF7DCF4D-4EF1-4D99-AAC3-39E39A2B894C - d49e964765ae1ed4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "1624">
+               </Location>
+               <Location
+                  uuid = "BF7DCF4D-4EF1-4D99-AAC3-39E39A2B894C - 7ffdebc1f1137bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (xkcd.ComicModel) -&gt; Swift.Bool in xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1C8DA84-114A-4545-8F38-328748A0A460"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/ComicController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "toggleFavorite(comic:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1C8DA84-114A-4545-8F38-328748A0A460 - 7ffdebc1f1137bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (xkcd.ComicModel) -&gt; Swift.Bool in xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "E1C8DA84-114A-4545-8F38-328748A0A460 - 7ffdebc1f1137bd9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (xkcd.ComicModel) -&gt; Swift.Bool in xkcd.ComicController.toggleFavorite(comic: xkcd.ComicModel) -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/ComicController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "88"
+                  endingLineNumber = "88"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82978E32-AF4E-4A50-BC0A-77A6A043DD83"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62FC78E5-4013-4981-A162-E0F1244C7F33"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "performSearch()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEC3A18B-D645-4001-BE3B-B4782D09A3FE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEC3A18B-D645-4001-BE3B-B4782D09A3FE - aeb18a509f7bbf8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "492">
+               </Location>
+               <Location
+                  uuid = "EEC3A18B-D645-4001-BE3B-B4782D09A3FE - d7ab1d443d93430a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "580">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFEACA38-B275-4CDA-B23E-21AADBA93F34"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4766D903-27A1-482A-988F-F0EA8F539965"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - d7ab1d443d93417a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "132"
+                  endingLineNumber = "132"
+                  offsetFromSymbolStart = "2776">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - d7ab1d443d934145"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "1800">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - 5dd1dbc40202135e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - bc81819af7a20543"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - 8815767bac5d6740"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - e1631266ab9571fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "8C5A3F39-3206-41CF-B94D-59CA81A7D61F - cbf90992e4138a21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "133"
+                  endingLineNumber = "133"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D56C9F1D-F968-48D3-B2E5-BE7AACDB8DF7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23CD9BF9-F99A-44D3-9CD9-D7498533F631"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "23CD9BF9-F99A-44D3-9CD9-D7498533F631 - d7ab1d443d934030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1308">
+               </Location>
+               <Location
+                  uuid = "23CD9BF9-F99A-44D3-9CD9-D7498533F631 - d7ab1d443d934030"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1516">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C0BE3E2-E45A-4506-9515-EEA1DAA7F745"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C0BE3E2-E45A-4506-9515-EEA1DAA7F745 - 885933b97c8a52cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "5C0BE3E2-E45A-4506-9515-EEA1DAA7F745 - 4817b31aaf9b7171"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "5C0BE3E2-E45A-4506-9515-EEA1DAA7F745 - 59cb2a67a07fcac9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "5C0BE3E2-E45A-4506-9515-EEA1DAA7F745 - 313c26030a068ecb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "136"
+                  endingLineNumber = "136"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - cbf90992e4138d06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - 51bb229b32f9d945"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - 8784eef2403a4938"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - 78767c43fe29a73b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - 20aa70b1dac797fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (inout Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Array&lt;xkcd.ComicModel&gt;) async -&gt; () in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "A1B932F8-9AC7-4C32-8D6B-4FB74D63180A - f74ab7269ce03b61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #2 (inout Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Array&lt;xkcd.ComicModel&gt;) async -&gt; () in closure #1 (inout Swift.ThrowingTaskGroup&lt;Swift.Array&lt;xkcd.ComicModel&gt;, Swift.Error&gt;) async throws -&gt; Swift.Array&lt;xkcd.ComicModel&gt; in xkcd.SearchPopupView.parseSearchResults(data: Foundation.Data) async -&gt; ()"
+                  moduleName = "xkcd"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nissenm/Development/xkcd/xkcd/SearchPopupView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1941BA95-A234-48F7-93C1-BA349F2B164D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "150"
+            endingLineNumber = "150"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5F9B174E-57FD-4F80-B457-6A2F9AC2CFDC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "xkcd/SearchPopupView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "parseSearchResults(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
