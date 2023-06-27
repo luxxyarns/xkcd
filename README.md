@@ -1,4 +1,4 @@
-# xkcd
+# AKCD - another xkcd comics browser
 
 The following are the main 8 requirements
 
