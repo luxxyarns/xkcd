@@ -9,16 +9,16 @@ import Foundation
 
 public struct ComicModel: Codable, Identifiable, Comparable, Hashable, Equatable, CustomStringConvertible {
     public let id = UUID()
-    let month: String
-    let num: Int
-    let link: String
-    let year: String
-    let news: String
-    let safeTitle: String?
-    let title: String
-    let transcript: String
-    let alt: String
-    let img: String?
+    public let month: String
+    public let num: Int
+    public let link: String
+    public let year: String
+    public let news: String
+    public let safeTitle: String?
+    public let title: String
+    public let transcript: String
+    public let alt: String
+    public let img: String?
     
     enum CodingKeys: String, CodingKey {
         case id, month, num, link, year, news, alt, title, transcript, img
