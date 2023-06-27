@@ -11,6 +11,8 @@ The following are the main 8 requirements
 - R7: get notifications when a new comic is published,
 - R8: support multiple form factors.
 
+![image 1](https://github.com/luxxyarns/xkcd/blob/main/image1.png?raw=true) |  ![image 2](https://github.com/luxxyarns/xkcd/blob/main/image2.png?raw=true)
+
 
 Iteration 1 of the app is a first MVP draft
 
